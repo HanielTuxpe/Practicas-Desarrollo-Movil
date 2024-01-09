@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: fit-content;
+    border: 5px;
+    border-style:solid;
+    box-shadow: 0px 60px 60px rgba(0, 0, 0, 1); 
+}
+
+.titulo{
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: aqua;
+    padding: 1em;
+}
+
+img{
+    padding: 1em;
+    height: 200px;
+    border-radius: 100%;
+    transform: translate(0%, 0%);
+}
+
+.data{
+    height: 250px;
+    margin: 8em 1em 0 ;
+}
