@@ -49,13 +49,8 @@ export const Boton = () => {
 };
 
 export const Body = () => {
-  // State variable to hold the password
   const [password, setPassword] = useState("");
-
-  // State variable to track password visibility
   const [showPassword, setShowPassword] = useState(false);
-
-  // Function to toggle the password visibility state
   const toggleShowPassword = () => {
     setShowPassword(!showPassword);
   };
